@@ -45,7 +45,7 @@ import org.sonar.squidbridge.checks.ChecksHelper;
 @SqaleLinearWithOffsetRemediation(coeff = "1min", offset = "10min", effortToFixDescription = "per complexity point above the threshold")
 public class FunctionCallComplexityCheck extends LuaCheck {
 
-  private static final int DEFAULT_MAXIMUM_FUNCCALL_COMPLEXITY_THRESHOLD = 5;
+  private static final int DEFAULT_MAXIMUM_FUNCCALL_COMPLEXITY_THRESHOLD = 15;
 
   @RuleProperty(
     key = "maxFuncCallComplexityThreshold",

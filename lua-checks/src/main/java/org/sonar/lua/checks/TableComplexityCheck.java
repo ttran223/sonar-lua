@@ -42,7 +42,7 @@ import org.sonar.lua.grammar.LuaGrammar;
 
 public class TableComplexityCheck extends LuaCheck {
 
-  private static final int DEFAULT_MAXIMUM_TABLE_COMPLEXITY_THRESHOLD = 10;
+  private static final int DEFAULT_MAXIMUM_TABLE_COMPLEXITY_THRESHOLD = 50;
 
   @RuleProperty(
     key = "maximumTableComplexityThreshold",

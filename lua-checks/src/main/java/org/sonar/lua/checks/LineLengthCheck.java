@@ -55,7 +55,7 @@ import org.sonar.sslr.parser.LexerlessGrammar;
 public class LineLengthCheck extends SquidCheck<LexerlessGrammar> implements  CharsetAwareVisitor {
 
  // public static final String CHECK_KEY = "LineLength";
-  private static final int DEFAULT_MAXIMUM_LINE_LENGTH = 80;
+  private static final int DEFAULT_MAXIMUM_LINE_LENGTH = 180;
   private static final Logger LOG = LoggerFactory.getLogger(LineLengthCheck.class);
   private Charset charset;
 

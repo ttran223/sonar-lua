@@ -39,7 +39,7 @@ tags = Tags.BRAIN_OVERLOAD)
 @SqaleLinearWithOffsetRemediation(coeff = "1min", offset = "10min", effortToFixDescription = "per complexity point above the threshold")
 public class TableWithTooManyFieldsCheck extends SquidCheck<LexerlessGrammar> {
 
-	private static final int DEFAULT = 5;
+	private static final int DEFAULT = 50;
 	 @RuleProperty(
 			    key = "max",
 			    description = "Maximum authorized number of parameters",
